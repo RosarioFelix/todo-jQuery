@@ -1,0 +1,50 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #e8e8e8;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+header{
+  background-color: #fb0;
+  padding: 8px;
+}
+header .container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container-white{
+  margin: auto;
+  font-weight: 300;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.check-box{
+  height:  15px;
+  width: 15px;
+  border: 1px solid gray;
+  display: inline-flex;
+}
+.todo{
+  color: black;
+  text-decoration: none;
+}
+
+.complete{
+  text-decoration: line-through;
+  color: black;
+  font-style: italic;
+}
+#input-item{
+  padding: 10px;
+  width: 95%;
+}
+.todo button{
+  float: right;
+}
